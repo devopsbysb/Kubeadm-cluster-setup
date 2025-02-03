@@ -205,7 +205,9 @@ Verify that all the pods are up and running:
 kubectl get pods --all-namespaces
 
 \`\`\`
+##AFTER INSTALLATION ALL THE THINGS IN MASTER AND WORKER NODE NOW
+#GO TO INSTANCE MASTER SECUIRETY GROUP EDIT INBOUND TRULE AND ADD RULE --ALL TRAFFIC AND ANYWHERE #DO SAME IN WORKER NODE TOO
 
-\## Join Nodes
+\## Join Nodes  with --v=5
 
 To add nodes to the cluster, run the kubeadm join command with the appropriate arguments on each node. The command will output a token that can be used to join the node to the cluster.
